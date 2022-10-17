@@ -1,0 +1,17 @@
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: yellowgreen;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/*To accomplish this task, I used <@media screen and (max-width: 600px)> 
+and @media screen and (min-width: 600px) to make the same webpage look 
+different when viewing it at different screen sizes.*/

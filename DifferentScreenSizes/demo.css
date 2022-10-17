@@ -1,0 +1,27 @@
+.container {
+    border: 3px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    /*rem is n times the size of the root element*/
+    width: 5rem;
+    height: 5rem;
+    background-color: yellow;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .box {
+        background-color: yellow;
+    }
+}
